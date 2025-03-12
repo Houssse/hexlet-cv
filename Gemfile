@@ -44,6 +44,7 @@ gem 'devise-i18n'
 gem 'dotenv-rails'
 gem 'dry-container'
 gem 'enumerize'
+gem 'faker'
 gem 'flash_rails_messages'
 gem 'geocoder'
 gem 'gon'
@@ -79,7 +80,6 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
-  gem 'faker'
   gem 'rubocop-performance'
   gem 'rubocop-rails'
   gem 'slim_lint'
